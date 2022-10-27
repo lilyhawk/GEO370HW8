@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Homework 8</title>
+
+      <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>GEO 370: Homework 8</h1>
@@ -13,11 +15,21 @@
     <a href="Hazardous_waste_NA.png"> Homework 8 map</a>
 
     <h3>Question</h3>
-<p>
+<p> Are the managed wildlife areas in the Wilmington Area a safe distance from active hazardous waste sites?
 </p>
 
 <h3>Reasoning</h3>
+<p> The industrial chemicals, hazardous runnoff, and other various pollutants travel down the Cape Fear River compounding until they reach the Atlantic Ocean near Wilmington Port. This leaves the natural areas along the river very vulnerable. When looking at the location of hazadous waste sites in NC I noticed they are concentrated in metropolitan areas, which often occur along the river. Instead of looking at how the runoff from these all these sites along the river impacts the natural areas surrounding Wilmington, NC, I decided to look at how much of these already vulnerable important natural areas are affected by the local hazardous sites.
+ </p>
+ <p> The EPA reports seeing the negative physical and environmental effects of contamination for up to 1.8 miles from the initial site. I decided to give my sphere of contamination a 1 mile radius because it varies depending on the contaminant and I do not know what waste is at each site.
+ </p>
 
+ <h3>Geoprocessing</h3>
+ <h4>Buffer</h4>
+ <p>I used a 1 mile buffer for the Hazardous Waste points to create the contamination area. </p>
+ <h4>Dissolve</h4>
+<p> I then dissolved the overlapping buffers to clean up the image and give a better representation of potentially contaminated land. 
+</p>
 <h3>Data Sources</h3>
 
 
